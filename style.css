@@ -12,7 +12,18 @@ section{
 }
 .half-width{
     width:50%;
+    padding-left:100px;
 }
 .half-width img{
     width:100%;
+    padding-right:100px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding:10px 40px;
+    border-radius:5px;
+    color:white;
+    font-weight:700;
+
 }
