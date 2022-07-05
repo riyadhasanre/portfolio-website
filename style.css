@@ -1,6 +1,9 @@
 body{
     font-family: 'Poppins', sans-serif
 }
+body{
+    margin:0;
+}
 h1{
     font-size:50px;
 }
@@ -11,12 +14,14 @@ section{
     display:flex;
 }
 .half-width{
-    width:50%;
-    padding-left:100px;
+    width:80%;
+    padding-left:50px;
 }
 .half-width img{
-    width:100%;
-    padding-right:100px;
+    width:760px; 
+    height:500px;
+    
+    
 }
 .link-button{
     text-decoration: none;
@@ -26,4 +31,39 @@ section{
     color:white;
     font-weight:700;
 
+}
+p{
+    text-align:justify;
+}
+.dream-big{
+    margin-top:150px;
+    background-position:right;
+}
+.top-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:top left 0px;
+}
+.full-stack{
+    width: 3px;00px;
+    height:300px;
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom: 20px;;
+    box-shadow:10px 10px 40px gray;
+    padding-left:20px;
+    text-align: justify;
+    display: inline-block;
+    float:left;
+    
+}
+#web{
+    border-left: 7px solid tomato;
+width: 50%;
+float: left;
+}
+#baby{
+    border-left: 7px solid blue;
+    width:50%;
+    float: left;
 }
